@@ -243,7 +243,7 @@
     border-radius: 50%;
 }
 .tournments_cont button:hover img {
-    transform: translateX(398px);
+    transform: translateX(200%);
     background-color: #841500;
 }
 .social_icons_cont img:hover {
