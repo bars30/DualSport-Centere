@@ -1,0 +1,915 @@
+@media only screen and (min-width: 1588px){
+  .first_info {
+    width: 434px;
+  }
+  .routing a {
+    font-size: 29px;
+  }
+
+  .buttons_cont button {
+    padding: 20px 52px;
+    font-size: 25px;
+  }
+  h1, h1 span {
+    font-size: 48px;
+  }
+  .logo img {
+    width: 108px;
+  }
+  .get_in_touch_cont {
+    width: 266px;
+  }
+  .get_in_touch_cont h3 {
+    font-size: 40px;
+  }
+  .get_in_touch_cont p {
+    font-size: 22px;
+  }
+  .social_icons_cont img {
+    width: 52px;
+  }
+  .first_info h2 {
+    margin-bottom: 9px;
+    font-size: 36px;
+  }
+  .first_info p {
+    font-size: 24px;
+  }
+  .why-choose-us h2 {
+    font-size: 47px;
+  }
+  .why-choose-us ul li h4 {
+    font-size: 32.5px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .why-choose-us ul li:before {
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    left: 16px;
+  }
+  .service_item .text_cont {
+    width: 358px;
+  }
+  .text_cont h3 {
+    font-size: 31.5px;
+  }
+  li {
+    font-size: 23px;
+}
+}
+@media only screen and (min-width: 1401px){
+  .facility ul li {
+    margin-right: 65px;
+  }
+}
+@media only screen and (max-width: 1400px){
+
+ h1, h1 span {
+  font-size: 28px;
+ }
+ .get_in_touch_cont h3 {
+  font-size: 24px;
+  margin-bottom: 13.5px;
+ }
+ .get_in_touch_cont p {
+  margin-bottom: 7px;
+  font-size: 15px;
+ }
+ .social_icons_cont img {
+  width: 34px;
+ }
+ .buttons_cont button {
+  padding: 20px 40px;
+ }
+ .img_button_cont {
+  text-align: right;
+  margin-top: -57px;
+  }
+  .first_info {
+    top: 22%;
+  }
+  .second_info {
+    top: 44%;
+  }
+  .first_info.third_info {
+    top: 66%;
+  }
+
+}
+@media only screen and (max-width: 1200px){
+.faq_details01 {
+    width: 83px;
+}
+.faq_backimg02 {
+  width: 39px;
+  left: 18%;
+}
+.faq_backimg03 {
+  right: 15%;
+  width: 41px;
+}
+.social_icons img {
+  width: 39px;
+}
+
+
+  .first_info {
+    top: 23%;
+  }
+  .second_info {
+    top: 47%;
+  }
+  .third_info {
+    top: 72%;
+  }
+  .logo img {
+   width: 53px;
+  }
+  h1, h1 span {
+   font-size: 21px;
+  }
+  .get_in_touch_cont h3 {
+   font-size: 19px;
+   margin-bottom: 8.5px;
+  }
+  .get_in_touch_cont p {
+   margin-bottom: 7px;
+   font-size: 14px;
+  }
+  .get_in_touch_cont {
+   bottom: 105px;
+   left: 20px;
+   width: 157px;
+   padding-right: 12px;
+  }
+  .social_icons_cont img {
+   width: 28px;
+  }
+  .routing a {
+   font-size: 15px;
+   padding: 8px 20px;
+   margin-right: 9px;
+  }
+  .routing {
+   padding: 13px 17px;
+  }
+  .buttons_cont button {
+   padding: 15px 24px;
+   font-size: 15px;
+  }
+  .img_button_cont img {
+   width: 41px;
+ }
+ .text_cont h3 {
+  font-size: 19.5px;
+  margin: 4px 0 11px;
+ }
+
+
+  .third_info h2 {
+    margin-bottom: 5px;
+  }
+  .img_show_cont2 .img_cont h5 {
+    font-size: 16px;
+  }
+
+
+  .photo .img_cont .img_c:nth-child(1):before {
+    left: 24%;
+  }
+
+
+}
+@media only screen and (max-width: 1000px){
+  .footer_cont {
+    display: block;
+  }
+  .footer_about {
+    width: 100%;
+  }
+  .footer_cont3 {
+    width: 70%;
+    padding: 20px 0;
+  }
+  .footer_cont2 {
+    padding-top: 0;
+  }
+  .faq h2 {
+    font-size: 27px;
+  }
+  .faq_backimg02 {
+    width: 39px;
+    left: 18%;
+}
+.faq_backimg03 {
+  right: 16%;
+  width: 40px;
+}
+.faq_details01 {
+  width: 71px;
+  top: 16%;
+}
+.faq_item_header img {
+  width: 20px;
+}
+.faq_item_header h3 {
+  font-size: 20px;
+}
+.faq_item_header {
+  margin-bottom: 7px;
+}
+.faq_item p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+  .first_info {
+    width: 100%;
+    height: 102px;
+    margin-bottom: 15px;
+}
+
+
+ .video_cont {
+  left: 0;
+ }
+ .video_cont video {
+  width: 100%;
+ }
+  .tournments_cont {
+
+  width: 336px;
+  }
+  .tourn_bottom {
+  left: 332px;
+  }
+  .toolbar {
+  left: 34px;
+  }
+  .buttons_cont button:nth-child(1) {
+  margin-right: 15px;
+  display: none;
+  }
+  .social_icons_cont {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  }
+  .get_in_touch_cont p {
+  color: #ffffff;
+  margin-bottom: 4px;
+  }
+  .get_in_touch_cont h3 {
+  font-size: 17px;
+  margin-bottom: 5.5px;
+  }
+  .get_in_touch_cont {
+  bottom: 121px;
+  left: 40px;
+  width: 182px;
+  padding: 12px;
+  background-color: #b2aa6abd;
+  border-radius: 23px;
+  }
+  .img_button_cont img {
+  display: none;
+  }
+  .tournments_cont p {
+
+  margin-left: 47px;
+  }
+  .img_show_cont img, .img_show_cont2 .img_cont {
+  height: 148px;
+  }
+
+  .why-choose-us h2 {
+  font-size: 30px;
+  }
+  .service_cont {
+  width: 94%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+  .service_item {
+  background-color: var(--black);
+  width: 46.5%;
+  margin-bottom: 15px;
+  }
+
+  .membership h3 {
+  font-size: 28px; 
+  }
+  .membership ul {
+  padding-left: 95px;
+  font-size: 17px;
+  }
+  .intro_text {
+  width: 75%;
+  margin: auto;
+  font-size: 17px;
+  }
+  .first_info h2 {
+    font-size: 21px;
+  }
+  .first_info p br {
+    display: none;
+  }
+  .infos {
+    position: absolute;
+    top: 25%;
+    right: -17%;
+  }
+  .first_info {
+    width: 64%;
+    height: 88px;
+    padding: 9px 25px;
+}
+
+
+
+
+
+}
+@media only screen and (max-width: 800px){
+  .faq h2 {
+    font-size: 25px;
+    margin-bottom: 19px;
+  }
+  .faq_item_header h3 {
+    font-size: 19px !important;
+  }
+  .faq_item_header img {
+    width: 19px;
+  }
+  .faq_item_header {
+    margin-bottom: 5px;
+  }
+  .faq_item p {
+    font-size: 15px !important;
+    padding-left: 34px;
+    margin-bottom: 8px !important;
+    width: 100% !important;
+  }
+  .footer_cont3 {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .faq h2 {
+    font-size: 26px ;
+    margin-bottom: 17px ;
+  }
+  .faq_backimg02 {
+    width: 31px;
+    top: 36px;
+    left: 14%;
+  }
+  .faq_backimg03 {
+    top: 51px;
+    right: 11%;
+    width: 36px;
+  }
+  .faq_details01 {
+    left: -8px;
+    top: 15%;
+    width: 60px;
+  }
+  .faq_details02 {
+    top: 33%;
+    width: 63px;
+  }
+  .faq_backdet02 {
+    left: -19px;
+    top: 52%;
+    width: 50px;
+  }
+  .faq_backdet01 {
+    right: -12px;
+    bottom: 30%;
+    width: 42px;
+}
+
+
+  .membership_table table {
+    width: 100%;
+  }
+  .membership_table table th, .membership_table table td {
+    padding: 6px 11px;
+  }
+
+
+ .toolbar_hamburg{
+  display: block;
+ }
+ .buttons_cont button:nth-child(2) {
+  display: none;
+ }
+ .routing {
+  display: none;
+ }
+ .tournments_cont {
+  width: 297px;
+ }
+ .tournments_cont button img {
+  width: 43px;
+ }
+ .tournments_cont p {
+  margin-left: 30px;
+  font-size: 15px;
+ }
+ .tournments_cont {
+  width: 258px;
+ }
+ .header .first_info {
+  display: none;
+ }
+ .tourn_bottom {
+  left: 253px;
+ }
+ .get_in_touch_cont {
+  bottom: 43px;
+  left: auto;
+  width: 182px;
+  padding: 12px;
+  background-color: #b2aa6abd;
+  border-radius: 23px;
+  right: 39px;
+ }
+ .tourn_top {
+  bottom: 84px;
+ }
+ .logo {
+  display: flex;
+  justify-content: start;
+}
+.logo img {
+ width: 62px;
+}
+h1 br:nth-child(2){
+ display: none;
+}
+.info {
+ display: block;
+}
+
+.img_show_cont img, .img_show_cont2 .img_cont {
+ height: 100px;
+}
+.why-choose-us {
+ padding: 0 0 92px;
+}
+.why-choose-us ul li h4 {
+ font-size: 20.5px;
+ color: var(--yellow);
+ font-family: 'Lora';
+ margin-bottom: 11px;
+}
+.img_show_cont, .img_show_cont2 {
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 40px;
+ flex-wrap: wrap;
+}
+.img_show_cont img, .img_show_cont2 .img_cont {
+ height: auto;
+ width: 46%;
+ margin-bottom: 16px;
+}
+.img_show_cont img, .img_show_cont2 .img_cont {
+ height: auto;
+ width: 44%;
+ margin-bottom: 16px;
+}
+
+.photo .img_cont .img_c {
+ width: 47%;
+ border-radius: 12px;
+}
+.photo .img_cont .img_c {
+ width: 47%;
+ margin-bottom: 11px;
+}
+.photo .img_cont .img_c:nth-child(1):before {
+ left: 24%;
+}
+.membership ul {
+ padding-left: 43px;
+ font-size: 16px;
+}
+.intro_text {
+ width: 79%;
+ margin: auto;
+ font-size: 16px;
+}
+
+.img_show_cont img:nth-child(3),
+ .img_show_cont2 .img_cont:nth-child(1){
+  display: none;
+}
+
+.service_item {
+  background-color: var(--black);
+  width: 47.5%;
+}
+.facility ul {
+  flex-wrap: wrap;
+}
+.facility ul li {
+  width: 47%;
+}
+.service_button img {
+  width: 43px;
+}
+.service_button p {
+  font-size: 15px;
+  padding: 11px 18px 11px 13px;
+}
+
+.photo .img_cont {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.photo .img_cont .img_c {
+  width: 47%;
+  margin-bottom: 15px;
+}
+.photo h3 {
+  font-size: 27px;
+  padding-top: 4px;
+}
+.service_item .text_cont {
+  top: 2px;
+  left: 7px;
+  padding: 16px;
+  width: 249px;
+}
+.why-choose-us .services-backimg, .photo-backimg {
+
+  width: 130%;
+}
+.routing a {
+  box-shadow: 5px 5px 12px 0px #ffffff75;
+}
+.routing {
+  /* display: none; */
+  display: block;
+  left: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 150;
+  padding-top: 77px;
+  transition: all 0.5s ease-in;
+}
+.routing a {
+font-size: 16px;
+padding: 8px 20px;
+margin-right: 9px;
+width: 57%;
+margin-bottom: 15px;
+}
+.routing-mobile {
+left: 0% !important;
+}
+.routing {
+background-color: #020202de;
+padding-left: 46px;
+}
+
+.buttons_cont {
+  z-index: 500000;
+}
+
+}
+@media only screen and (max-width: 600px){
+  .why-choose-us .services-backimg, .photo-backimg {
+
+    width: 180%;
+  }
+
+  .faq h2 {
+    font-size: 22px;
+  }
+  .faq_backimg02 {
+    width: 26px;
+    top: 36px;
+    left: 5%;
+ }
+ .faq_backimg03 {
+  top: 47px;
+  right: 4%;
+  width: 29px;
+ }
+ .faq_details01 {
+  position: absolute;
+  left: -29px;
+  top: 18%;
+}
+
+.faq_details02 {
+    right: -6px;
+    top: 33%;
+    width: 40px;
+}
+.faq_backdet02 {
+  left: -10px;
+  top: 43%;
+  width: 33px;
+}
+.faq_gallery {
+  display: block;
+}
+.faq_gallery img {
+  width: 85%;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.faq_details03 {
+  bottom: 14%;
+  left: -18px;
+  width: 54px;
+}
+.footer_cont3 {
+  display: block;
+}
+.footer_info {
+  width: 100%;
+}
+.footer_routing {
+  width: 100%;
+  padding-top: 10px;
+}
+.footer_routing a:nth-child(1), .footer_routing a:nth-child(2),
+.footer_routing a:nth-child(3), .footer_routing a:nth-child(4){
+  display: none;
+}
+.footer_logo_cont {
+  display: none;
+}
+
+
+
+
+
+
+  /* ------------------------ */
+  .ic1, .ic2, .tourn_top, .tourn_bottom {
+    display: none;
+  }
+  .ic1-mob, .ic2-mob,
+   .tourn_top-mob , .tourn_bottom-mob {
+    display: block;
+  }
+  .ic1 {
+    top: 13px;
+    left: -28px;  
+  }
+  .ic2 {
+    right: 17px;
+    bottom: -30px;
+    transform: rotate(0deg) !important;
+  }
+  .tourn_top {
+    bottom: 67px;
+    left: -3px;
+  }
+  .tourn_bottom {
+    left: 195px;
+    bottom: -48px;
+  }
+  .tournments_cont {
+    border-radius: 0 32px;
+  }
+  /* ------------------------ */
+ .video {
+  display: none;
+ }
+ .mobvideo {
+  display: block;
+ }
+ .logo img {
+  width: 52px;
+ }
+ h1, h1 span {
+  font-size: 19px;
+  }
+    h1 {
+        padding: 0 0 0 5px;
+    }
+    .logo {
+      display: flex;
+      justify-content: start;
+      background-color: #b2b17c9e;
+      padding: 8px;
+      border-radius: 15px;
+  }
+  .buttons_cont button {
+    padding: 15px;
+    font-size: 15px;
+}
+.tournments_cont {
+  width: 238px;
+  bottom: 0;
+}
+.tourn_top {
+  bottom: 68px;
+}
+
+
+.get_in_touch_cont {
+  bottom: 93px;
+  left: 45px;
+  width: 182px;
+  padding: 12px;
+  background-color: #b2aa6abd;
+  border-radius: 23px;
+  right: auto;
+}
+.tournments_cont p {
+  margin-left: 15px;
+  font-size: 15px;
+}
+.first_info {
+  width: 100%;
+}
+.why-choose-us ul li {
+  padding-left: 54px;
+  margin-bottom: 15px;
+}
+
+.why-choose-us ul li h4 {
+  font-size: 18.5px;
+}
+.why-choose-us ul p {
+  font-size: 15px;
+}
+.img_show_cont, .img_show_cont2 {
+  margin-bottom: 0;
+}
+.backimg01 {
+  width: 70px;
+  top: 129px;
+}
+.backimg03 {
+  width: 86px;
+  right: -25px;
+  top: 11%;
+}
+.backimgshape01 {
+  right: -227px;
+}
+.backimgshape02 {
+  left: -156px;
+}
+.backimg02 {
+  width: 80px;
+  right: -27px;
+  top: 77%;
+}
+.why-choose-us {
+  padding: 0 0 57px;
+}
+
+.service-detailimg {
+  width: 50px;
+}
+.our-services h2 {
+  font-size: 30px;
+}
+.our-services {
+  padding: 34px 0 65px;
+}
+.service_item {
+  width: 88.5%;
+}
+
+.photo .img_cont .img_c {
+  width: 91%;
+  margin-bottom: 15px;
+}
+.membership-gallery-cont {
+  display: block;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+.membership video {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.membership-gallery-cont img {
+  width: 100%;
+}
+
+.intro_text {
+  width: 95%;
+}
+.facility ul li {
+  width: 67%;
+}
+.service_container h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 4px;
+  padding-left: 24px;
+}
+.service-button-cont {
+  padding: 13px 0 7px 0;
+}
+
+
+}
+@media only screen and (max-width: 400px){
+  .why-choose-us .services-backimg, .photo-backimg {
+
+    width: 210%;
+  }
+  .buttons_cont {
+    padding: 20px 15px;
+  }
+  .toolbar_hamburg span {
+    width: 29px;
+    height: 5px;
+  }
+  .logo img {
+    width: 45px;
+  }
+  h1, h1 span {
+    font-size: 17px;
+}
+  .get_in_touch_cont {
+    left: 37px;
+    background-color: #b2aa6a85;
+  }
+  .tournments_cont button img {
+    width: 35px;
+  }
+  .tournments_cont p {
+    margin-left: 12px;
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  .tournments_cont {
+    width: 201px;
+  }
+  .tourn_top {
+    bottom: 57px;
+  }
+
+  .video_cont video {
+    border-radius: 25px;
+  }
+  .logo {
+    display: block;
+    justify-content: start;
+    background-color: #b2b17c00;
+  }
+  .logo img {
+    width: 45px;
+    background-color: #957d4178;
+    padding: 3px;
+    border-radius: 20px;
+  }
+  h1 {
+    padding: 5px 11px;
+    background-color: #957d4178;
+    border-radius: 20px;
+  }
+  .img_show_cont img, .img_show_cont2 .img_cont {
+    width: 100% !important;
+  }
+  .service-detailimg02 {
+    position: absolute;
+    width: 54px;
+    bottom: 98px;
+    left: -16px;
+}
+.facility ul {
+  padding-left: 63px;
+}
+
+.photo {
+  padding: 44px 0 45px;
+  position: relative;
+}
+
+
+}
+
+
+
+

@@ -1,0 +1,98 @@
+.membership {
+ background-color: var(--black);
+ color: white;
+ padding-bottom: 45px;
+}
+.membership h3 {
+ font-size: 32px;
+ text-align: center;
+ font-family: 'Lora';
+ margin-bottom: 15px;
+}
+.membership-gallery-cont {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 32px;
+}
+.membership video {
+ width: 48%;
+ border-radius: 19px;
+}
+.membership-gallery-cont  img {
+ width: 48%;
+ border-radius: 19px;
+}
+.membership h4 {
+ font-size: 23px;
+ color: var(--green);
+ font-family: 'Lora';
+ font-style: italic;
+ margin-bottom: 14px;
+}
+.membership ul {
+ padding-left: 120px;
+ font-size: 19px;
+ margin-bottom: 15px;
+}
+.membership b, .membership ul li::marker {
+ color: var(--yellow);
+}
+.membership ul li {
+ margin-bottom: 11px;
+}
+.intro_text {
+ width: 75%;
+ margin: auto;
+ font-size: 19px;
+ color: white;
+ padding-top: 37px;
+ text-align: center;
+}
+.intro_text span {
+ color: var(--green);
+ font-family: 'Lora';
+}
+
+.membership_table {
+ padding: 30px 0 0;
+}
+.membership_table table {
+ width: 90%;
+ margin: auto;
+ border: 2px solid white;
+ border-radius: 22px;
+ border-collapse: separate; 
+ border-spacing: 0; 
+ overflow: hidden;
+ cursor: pointer;
+}
+
+.membership_table table th, .membership_table table td {
+ border: 1px solid white;
+ padding: 8px 15px;
+ text-align: center;
+ transition: all 0.25s ease-in-out;
+}
+.membership_table table td:hover, .membership_table table th:hover {
+ background-color: #52799f;
+ border: 1px solid #52799f;
+}
+.membership_table table tr:nth-child(2n-1) td:nth-child(1),
+.membership_table table tr:nth-child(2n) td:nth-child(1){
+ text-align: left;
+}
+
+td img {
+ width: 29px;
+}
+
+
+@media only screen and (max-width: 630px){
+ .membership_table {
+  padding: 30px 0 0;
+  overflow-x: scroll;
+}
+}
+
+
+

@@ -1,0 +1,167 @@
+.why-choose-us {
+ background-color: var(--black);
+ color: white;
+ padding: 45px 0 92px;
+ position: relative;
+}
+.why-choose-us .services-backimg {
+ position: absolute;
+ width: 100%;
+ bottom: -4px;
+ left: 0;
+ right: 0;
+}
+.why-choose-us h2 {
+ text-align: center;
+ font-family: 'Lora';
+ font-size: 37px;
+ color: var(--green);
+ margin-bottom: 15px;
+}
+.why-choose-us ul {
+ list-style: none;
+ margin-bottom: 35px;
+ margin-top: 15px;
+}
+.why-choose-us ul li {
+ position: relative;
+ padding-left: 72px;
+ margin-bottom: 8px;
+}
+.why-choose-us ul li:nth-child(2n-1):before {
+ content: "";
+ background-image: url(../../img/home/icons/golf-field-color.png);
+ background-size: 25px;
+ background-repeat: no-repeat;
+ position: absolute;
+ width: 25px;
+ height: 25px;
+ left: 16px;
+}
+.why-choose-us ul li:nth-child(2n):before {
+ content: "";
+ background-image: url(../../img/home/icons/ball.png);
+ background-size: 25px;
+ background-repeat: no-repeat;
+ position: absolute;
+ width: 25px;
+ height: 25px;
+ left: 16px;
+}
+.why-choose-us ul li h4 {
+    font-size: 22.5px;
+    color: var(--yellow);
+    font-family: 'Lora';
+    margin-bottom: 13px;
+}
+.img_show_cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.img_show_cont2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+} 
+.img_show_cont2 img {
+    width:   100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.img_show_cont2 .img_cont {
+    overflow: hidden;
+}
+.img_show_cont img, .img_show_cont2 .img_cont {
+    /* height: 252px; */
+    width: 32%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.img_show_cont2 .img_cont:hover img {
+    transform: scale(1.2);
+}
+.img_show_cont2 .img_cont:hover {
+    box-shadow: 3px 4px 14px 2px #bbc59ea1;
+}
+.img_show_cont2 .img_cont {
+    position: relative;
+}
+.img_show_cont2 .img_cont h5 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 22px;
+    width: fit-content;
+    padding: 5px 18px;
+    background-color: #959e5dbd;
+    border-radius: 15px;
+    z-index: 25;
+}
+.img_show_cont img:nth-child(2):hover {
+    transform: translate3d(0, -8px, 0);
+    box-shadow: 2px 3px 20px 2px #a3b25f;
+}
+.img_show_cont img:nth-child(1):hover {
+    transform: translate3d(10px, -8px, 0);
+    box-shadow: 2px 3px 20px 2px #5a99c7;
+}
+.img_show_cont img:nth-child(3):hover{
+    transform: translate3d(-10px, -8px, 0);
+    box-shadow: 2px 3px 20px 2px #5a99c7;
+}
+.backimg01 {
+    position: absolute;
+}
+.backimg01 {
+    position: absolute;
+    width: 86px;
+    left: -16px;
+    top: 168px;
+}
+
+.backimg02 {
+    position: absolute;
+    width: 107px;
+    right: -25px;
+    top: 76%;
+}
+.backimg03 {
+    position: absolute;
+    width: 107px;
+    right: -25px;
+    top: 9%;
+}
+.backimg04 {
+    position: absolute;
+    width: 85px;
+    top: 38%;
+    left: -24px;
+    transform: rotate(24deg);
+}
+.backimgshape01 {
+    position: absolute;
+    right: -209px;
+    top: 28%;
+}
+.backimgshape02 {
+    position: absolute;
+    left: -133px;
+    bottom: 200px;
+    transform: rotate(56deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

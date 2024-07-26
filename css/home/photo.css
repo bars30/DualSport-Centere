@@ -1,0 +1,80 @@
+.photo {
+ background-color: var(--black);
+ padding: 70px 0 45px;
+ position: relative;
+}
+.photo .img_cont {
+ display: flex;
+ justify-content: space-between;
+}
+.photo .img_cont .img_c {
+ width: 32%;
+ border-radius: 12px;
+ position: relative;
+ cursor: pointer;
+ transition: all 0.3s ease-in;
+}
+.photo .img_cont .img_c:hover  {
+ transform: scale(1.1);
+}
+.photo .img_cont .img_c:hover::before {
+ color: #ff9e00;
+}
+.photo .img_cont .img_c::before {
+ content: 'Compete';
+ color: white;
+ font-size: 28px;
+ font-family: 'Lora';
+ position: absolute;
+ top: 40%;
+ left: 35%;
+ font-weight: 900;
+ box-shadow: 1px 2px 5px 8px white;
+ border-radius: 16px;
+ padding: 5px 9px;
+}
+.photo .img_cont .img_c:nth-child(1):before {
+ left: 32%;
+}
+.photo .img_cont .img_c:nth-child(2):before {
+ content: 'Relax';
+}
+.photo .img_cont .img_c:nth-child(3):before {
+ content: 'Enjoy';
+}
+.photo .img_cont .img_c img {
+ width: 100%;
+ border-radius: 12px;
+}
+/* .photo-backimg {
+ position: absolute;
+ width: 100%;
+ top: -105px;
+ left: 7px;
+} */
+.photo h3 {
+ color: white;
+ font-family: 'Lora';
+ text-align: center;
+ font-size: 30px;
+ padding-top: 20px;
+ cursor: pointer;
+}
+.photo h3 span {
+ font-family: 'Lora';
+ color: var(--green);
+}
+.photo hr {
+ margin: 30px 0 0;
+ height: 15px;
+ border-radius: 15px;
+ border: 1px dashed white;
+}
+
+
+
+
+
+
+
+

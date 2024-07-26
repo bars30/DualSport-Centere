@@ -1,0 +1,22 @@
+.info {
+ display: none;
+ position: relative;
+ background-color: var(--black);
+ padding: 25px 0;
+}
+.info  .first_info {
+ position: static;
+ background: 
+ linear-gradient(45deg, #ad1c04de, #9716007d, #b62006c4, #9716007d) !important;
+}
+.info .container {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+.testimonials {
+ padding: 45px 0;
+ background-color: #78342d;
+ color: white;
+ position: relative;
+}
+.testimonials_backimg01 {
+ position: absolute;
+ bottom: -24px;
+ left: -9px;
+ width: 240px;
+ transform: rotate(14deg);
+}
+.testimonials_backimg02 {
+ position: absolute;
+ bottom: -18px;
+ right: -26px;
+ width: 240px;
+ transform: rotate(346deg);
+}
+
+
+.testimonials h2 {
+ text-align: center;
+ font-size: 32px;
+ font-family: 'Lora';
+ margin-bottom: 20px;
+}
+#testimonials-slider {
+ display: flex;
+ overflow: hidden;
+ width: 100%;
+ position: relative;
+ border-radius: 27px;
+}
+.testimonials_item {
+ min-width: 44%;
+ box-sizing: border-box;
+ transition: transform 0.5s ease-in-out;
+ text-align: center;
+ padding: 20px;
+ background: linear-gradient(115deg, black, #563431, black);
+ border-radius: 27px;
+ margin-right: 15px;
+ cursor: pointer;
+ transition: all 0.5s ease-in;
+}
+.testimonials_item:hover {
+ background: linear-gradient(45deg, #563431, black, #563431);
+}
+
+.testimonials button {
+ background-color: #ffffff00;
+ /* color: #78342d; */
+ border: none;
+ /* padding: 10px 20px; */
+ cursor: pointer;
+ position: absolute;
+ top: 60%;
+ transform: translateY(-50%);
+ border-radius: 50%;
+}
+.testimonials button img {
+ width: 42px;
+}
+#prevBtn {
+ left: 32px;
+}
+#nextBtn {
+ right: 32px;
+}
+.testimonials_item h3 {
+ margin-top: 15px;
+}
+.testimonials_item b {
+ text-align: center;
+}
+
+
+/* ---------------------------- */
+@media only screen and (max-width: 1024px){
+ .testimonials_item {
+  min-width: 67%;
+ }
+ .testimonials button img {
+  width: 35px;
+ }
+ #prevBtn {
+  left: 16px;
+ }
+ #nextBtn {
+  right: 16px;
+ }
+}
+
+@media only screen and (max-width: 800px){
+ #testimonials-slider {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  position: relative;
+  border-radius: 27px;
+  overflow-x: scroll;
+ }
+ .testimonials button {
+  display: none;
+ }
+
+}
+
+
+@media only screen and (max-width: 600px){
+ .testimonials h2 {
+  font-size: 22px;
+ }
+ .testimonials_item {
+  min-width: 91%;
+ }
+
+}
+

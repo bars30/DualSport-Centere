@@ -1,0 +1,219 @@
+.our-services {
+ background-color: #4d7666;
+ padding: 45px 0 65px;
+ position: relative;
+} 
+.our-services h2 {
+ color: white;
+ font-family: "Lora";
+ font-size: 37px;
+ margin-bottom: 15px;
+ text-align: center;
+}
+
+.service_item:nth-child(1) .service-img {
+ width: 105px;
+}
+.service_item:nth-child(2) .service-img {
+ width: 129px;
+}
+.service_item:nth-child(3) .service-img {
+ width: 120px;
+}
+.golf-item .service-img {
+ width: 90px !important;
+}
+.service_cont {
+ width: 94%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+} 
+.service_container {
+ width: 94%;
+ margin: auto;
+}
+.service_item {
+ background-color: var(--black);
+ width: 32.5%;
+ color: white;
+ border-radius: 29px;
+ display: flex;
+ justify-content: space-between;
+ position: relative;
+ overflow: hidden;
+ cursor: pointer;
+ transition: all 0.25s ease-out;
+}
+.facility_item:hover {
+ transition: all 0.25s ease-out;
+}
+.service_item:hover, .facility_item:hover {
+ box-shadow: 5px 5px 15px 2px white;
+ transform: translate(0, -25px);
+}
+.text_cont h3 {
+ font-size: 21.5px;
+ margin: 4px 0 12px;
+ color: var(--yellow);
+}
+.text_cont {
+ padding: 1px 0 0 7px;
+}
+.text_cont ul {
+ padding: 0 0 5px 23px;
+}
+.text_cont p {
+ margin-bottom: 5px;
+}
+.service-detail1 {
+ position: absolute;
+ top: 19px;
+ right: -42px;
+ transform: rotate(223deg);
+}
+.service-detail2 {
+ position: absolute;
+ bottom: 20px;
+ right: 16px;
+ width: 29px;
+}
+.service_container h3 {
+ font-family: 'Lora';
+ font-size: 27px;
+ margin-bottom: 15px;
+ color: white;
+ margin-top: 24px;
+ padding-left: 24px;
+ font-style: italic;
+}
+.service-golf-detail1 {
+ position: absolute;
+ width: 47px;
+ left: 27px;
+ bottom: 0;
+}
+img.service-golf-detail2 {
+ position: absolute;
+ width: 50px;
+ right: 9px;
+ bottom: 0px;
+}
+/* ------------------- */
+.facility_cont {
+ width: 92%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+.facility_item {
+ width: 32.5%;
+ background-color: var(--black);
+ padding: 15px 20px;
+ border-radius: 29px;
+ display: flex;
+ justify-content: end;
+ position: relative;
+ cursor: pointer;
+}
+.facility_item .text_cont {
+ position: absolute;
+ left: 20px;
+ top: 15px;
+}
+.facility_item h4 {
+ color: white;
+}
+.facility_item img {
+ width: 175px;
+}
+.service_button {
+ display: block;
+ margin: auto;
+ background-color: transparent;
+ border: 5px solid white;
+ border-radius: 44px;
+ padding: 5px 7px;
+ display: flex;
+ justify-content: start;
+ cursor: pointer;
+}
+.service_button p {
+ font-size: 20px;
+ padding: 13px 18px 11px 13px;
+ color: white;
+}
+.service_button img {
+ width: 53px;
+}
+.service-button-cont {
+ padding: 13px 0 28px 0;
+}
+.service-detailimg {
+ position: absolute;
+ top: 3%;
+ transform: rotate(30deg);
+ left: -13px;
+}
+.service-detailimg01 {
+ position: absolute;
+ right: -185px;
+ transform: rotate(352deg);
+ top: 26%;
+}
+.service-detailimg02 {
+ position: absolute;
+ width: 105px;
+ bottom: 98px;
+ left: -16px;
+}
+.service-button-cont b {
+ text-align: center;
+ color: white;
+ font-size: 18px;
+ padding-bottom: 10px;
+ width: 85%;
+ display: block;
+ margin: auto;
+}
+.facility ul {
+ padding-left: 101px;
+ color: white;
+ font-size: 18px;
+ display: flex;
+ width: 66%;
+ justify-content: space-between;
+}
+.facility ul li {
+margin-right: 15px;
+}
+.facility {
+ display: flex;
+}
+.facility img {
+ width: 118px;
+ display: none;
+}
+.service_item .service-back-img {
+ width: 100%;
+}
+.service_item .text_cont {
+ position: absolute;
+ top: 13px;
+ left: 15px;
+ background-color: #433a3940;
+ padding: 16px;
+ border-radius: 15px;
+ width: 255px;
+}
+
+.photo-backimg {
+ position: absolute;
+ bottom: -14px;
+ width: 100%;
+} 
+
+
+
+
+
