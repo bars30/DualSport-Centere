@@ -59,11 +59,27 @@
     justify-content: space-between;
     margin-bottom: 40px;
 }
+.img_show_cont {
+    background: linear-gradient(45deg, #7e9b5b, #7391b1, #7e9b5b);
+    padding: 15px;
+    border-radius: 22px;
+    transition: all 0.25s ease-in ;
+}
+.img_show_cont:hover {
+    background: linear-gradient(45deg, #7391b1, #7e9b5b, #7391b1);
+}
 .img_show_cont2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-} 
+    padding: 15px;
+    background: linear-gradient(45deg, #455728, #df7652, #455728);
+    border-radius: 22px;
+    transition: all 0.25s ease-in-out ;
+}
+.img_show_cont2:hover {
+    background: linear-gradient(45deg, #df7652, #455728, #df7652);
+}
 .img_show_cont2 img {
     width:   100%;
     border-radius: 15px;

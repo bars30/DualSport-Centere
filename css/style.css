@@ -6,7 +6,10 @@
 }
 html {
     scroll-behavior: smooth;
-  }
+}
+body {
+    background-color: var(--black);
+}
 :root { 
  --black: #020003;
  --green: #d3ea17;

@@ -338,6 +338,9 @@
     height: 88px;
     padding: 9px 25px;
 }
+.facility ul {
+  width: 85% ;
+}
 
 
 
@@ -345,6 +348,10 @@
 
 }
 @media only screen and (max-width: 800px){
+  .facility ul {
+    width: 100% !important ;
+  }
+
   .faq h2 {
     font-size: 25px;
     margin-bottom: 19px;
@@ -594,8 +601,27 @@ padding-left: 46px;
   z-index: 500000;
 }
 
+
 }
 @media only screen and (max-width: 600px){
+
+
+
+
+
+  .img_show_cont, .img_show_cont2 {
+    margin-bottom: 0;
+    display: block;
+}
+.img_show_cont img, .img_show_cont2 .img_cont {
+  width: 100%;
+  margin-bottom: 16px;
+  display: block;
+}
+
+
+
+
   .why-choose-us .services-backimg, .photo-backimg {
 
     width: 180%;
@@ -635,10 +661,28 @@ padding-left: 46px;
   display: block !important;
 }
 .faq_gallery img {
-  width: 85% !important;
+  width: 100% !important;
   display: block;
   margin: auto !important;
   margin-bottom: 15px !important;
+}
+.faq_gallery img:nth-child(3){
+  display: none !important;
+}
+.photo .img_cont .img_c:nth-child(3){
+  display: none !important;
+}
+.img_show_cont {
+  background-color: #bbdb938a ;
+  padding: 15px;
+  border-radius: 22px;
+}
+
+.faq_gallery img:nth-child(3){
+  display: none !important;
+}
+.faq_gallery img:nth-child(2){
+  margin-bottom: 0 !important;
 }
 .faq_details03 {
   bottom: 14%;
@@ -907,7 +951,13 @@ padding-left: 46px;
   padding: 44px 0 45px;
   position: relative;
 }
-
+.service_item .text_cont {
+  padding: 0px 9px !important;
+}
+.text_cont h3 {
+  font-size: 17px;
+  margin: 4px 0 1px !important;
+}
 
 }
 

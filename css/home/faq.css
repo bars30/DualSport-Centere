@@ -53,7 +53,10 @@
 .faq_gallery {
  display: flex;
  justify-content: space-between;
- padding: 25px 0;
+ padding: 15px;
+ background: linear-gradient(45deg, #bdd5e6, #bde6c1, #bdd5e6);
+ border-radius: 26px;
+ margin: 15px 0;
 }
 .faq_backimg02 {
  position: absolute;
