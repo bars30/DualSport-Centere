@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1020px){
+ .header h2 {
+  font-size: 25px;
+ }
+}
+
+
+@media only screen and (max-width: 800px){
+ .about_header h3 {
+  font-size: 25px;
+  margin: 0 0 15px 0;
+ }
+ .about_header p {
+  font-size: 16px;
+ }
+ .img_cont img:nth-child(3){
+  display: none;
+ }
+ .img_cont img {
+  width: 49%;
+ }
+ .about_header h4 {
+  font-size: 16px;
+ }
+}
+@media only screen and (max-width: 600px){
+  .img_cont {
+      display: block;
+  }
+  .img_cont img {
+   width: 100%;
+  }
+  .img_cont img:nth-child(1){
+   margin-bottom: 15px;
+  }
+}
+
+
+
+
