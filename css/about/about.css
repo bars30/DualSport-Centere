@@ -1,0 +1,88 @@
+.logo img {
+ width: 55px;
+}
+h1 br {
+ display: none;
+}
+h1 br:nth-child(2) {
+ display: block;
+}
+h1 {
+ padding-left: 8px;
+}
+h1, h1 span {
+ font-size: 22px;
+}
+.logo {
+ display: flex;
+}
+
+.general_toolbar {
+ display: flex;
+ background: linear-gradient(45deg, #b89b37cf, #b5cda2cf, #b89b37cf);
+ justify-content: space-between;
+ padding: 15px;
+ border-radius: 40px;
+ margin-top: 20px;
+}
+.routing {
+ position: static;
+ background-color: transparent;
+ padding: 6px;
+}
+
+/* ------------------- */
+.header h2 {
+ color: white;
+ font-family: 'Lora';
+ font-size: 36px;
+ text-align: center;
+ margin: 25px 0;
+}
+video {
+ width: 100%;
+ border-radius: 40px;
+ margin-bottom: 25px;
+}
+h3 {
+ font-size:33px;
+ color: white;
+ margin-bottom: 15px;
+ font-family: 'Lora';
+ text-align: center;
+ color: var(--yellow);
+}
+p {
+ color: white;
+ font-size: 18px;
+}
+.img_cont {
+ display: flex;
+ justify-content: space-between;
+ margin: 25px 0;
+ padding: 15px;
+ background: linear-gradient(45deg, #5c2324, #a4bd54, #5c2324);
+ border-radius: 24px;
+ transition: all 0.25s ease-in-out;
+ cursor: pointer;
+}
+.img_cont:hover {
+ background: linear-gradient(45deg, #a4bd54, #5c2324, #a4bd54);
+}
+.img_cont img {
+ display: block;
+ width: 32%;
+ border-radius: 15px;
+ cursor: pointer;
+ transition: all 0.25s ease-in-out;
+}
+.img_cont img:hover{
+ transform: translate(0, -5px);
+ box-shadow: 2px 5px 15px 3px #0a0a0a;
+}
+
+
+
+
+
+
