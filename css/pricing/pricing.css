@@ -1,0 +1,217 @@
+h2:nth-child(1) {
+ color: #dae5bb;
+ font-family: 'Lora';
+ font-size: 36px;
+ text-align: center;
+ margin: 25px 0;
+}
+/* ----------- */
+.pricing_video_cont {
+ display: flex;
+ justify-content: space-between;
+ padding: 15px;
+ background: linear-gradient(45deg, #8e8627, #6c0e19, #8e8627);
+ border-radius: 31px;
+ cursor: pointer;
+}
+.pricing_video_cont video {
+ width: 49%;
+ border-radius: 28px;
+ transition: all 0.35s ease-in-out;
+}
+.pricing_video_cont video:nth-child(1):hover {
+ box-shadow: 2px 1px 15px 15px #a5613efc;
+    transform: scale(1.009);
+}
+.pricing_video_cont video:nth-child(2):hover {
+ box-shadow: 2px 1px 15px 15px #a98e40;
+ transform: scale(1.009);
+}
+
+/* ------------- */
+td {
+ color: rgb(0, 0, 0);
+}
+th {
+ color: rgb(255, 255, 255);
+}
+td {
+    background-color: #96a568;
+    transition: all 0.25s ease-in;
+}
+td:hover {
+    background-color: #becf8b;
+}
+th {
+    background-color: #73261c;
+    transition: all 0.25s ease-in;
+}
+th:hover {
+    background-color: #a84032;
+}
+
+.pricing-intro, .pricing-section {
+ padding: 3px 0 0 0;
+ text-align: center;
+}
+
+.pricing-section h2 {
+ margin-top: 15px;
+ font-size: 24px;
+ color: #d0d989;
+}
+
+.pricing-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 20px 0;
+ transition: all 0.25s ease-in-out;
+}
+.pricing-table:hover {
+    transform: translateY(-5px);
+}
+.pricing-table th, .pricing-table td {
+ border: 2.5px solid #020202;
+ padding: 8px;
+}
+
+
+
+.lesson-grid, .rental-grid, .service-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.lesson-item, .rental-item, .service-item {
+    padding: 20px;
+    width: 48%;
+    background: #5483ad;
+    text-align: left;
+    color: white;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+}
+.lesson-item:hover, .rental-item:hover, .service-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 2px 2px 8px 9px rgba(118, 146, 168, 0.809);
+}
+
+.lesson-item h3, .rental-item h3, .service-item h3 {
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+
+.lesson-item ul, .rental-item ul, .service-item ul {
+ list-style: none;
+ padding: 0;
+}
+
+.lesson-item ul li, .rental-item ul li, .service-item ul li {
+ margin-bottom: 10px;
+}
+
+
+ table {
+ border: 2px solid white;
+ border-radius: 22px;
+ border-collapse: separate;
+ border-spacing: 0;
+ overflow: hidden;
+ cursor: pointer;
+}
+.terms {
+    color: white;
+    text-align: center;
+}
+.terms h3 {
+    padding: 25px 0 15px 0;
+    font-size: 27px;
+    color: #e79e6a;
+    font-family: 'Lora';
+}
+.terms p {
+    font-size: 18px;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+ul li ul li {
+    padding-left: 25px;
+}
+
+.call-to-action {
+    color: white;
+    text-align: center;
+    padding-bottom: 17px;
+}
+.call-to-action h3 {
+    padding: 15px;
+    font-size: 27px;
+    color: #e79e6a;
+    font-family: 'Lora';
+}
+/* ------- */
+.pricing-form-section h2 {
+    font-size: 31px;
+    margin: 10px 0;
+}
+.pricing-form-section p {
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+label {
+    color: white;
+}
+input, textarea, select, option {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    margin: 10px;
+    outline: none;
+    border: 2px solid #6b8f43cf;
+    background: linear-gradient(45deg, #439756, #b78120);
+}
+.full-name-cont {
+    display: flex;
+    justify-content: flex-start;
+}
+.email-phone-cont {
+    display: flex;
+    justify-content: flex-start;
+}
+form {
+    width: fit-content;
+    margin: auto;
+    padding: 15px 0;
+}
+form button {
+    background: linear-gradient(45deg, #439756, #b78120);
+    border: navajowhite;
+    font-size: 22px;
+    padding: 8px 40px;
+    border-radius: 18px;
+    display: block;
+    margin: 10px auto;
+}
+textarea {
+    width: 96%;
+    resize: vertical;
+    
+}
+.pricing-form-section {
+    padding-bottom: 35px;
+}
+
+
+
+
+
+
+

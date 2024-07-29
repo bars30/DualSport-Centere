@@ -1,3 +1,36 @@
+.logo img {
+  width: 55px;
+ }
+ h1 br {
+  display: none;
+ }
+ h1 br:nth-child(2) {
+  display: block;
+ }
+ h1 {
+  padding-left: 8px;
+ }
+ h1, h1 span {
+  font-size: 22px;
+ }
+ .logo {
+  display: flex;
+ }
+ 
+ .general_toolbar {
+  display: flex;
+  background: linear-gradient(45deg, #b89b37cf, #b5cda2cf, #b89b37cf);
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 40px;
+  margin-top: 20px;
+ }
+ .routing {
+  position: static;
+  background-color: transparent;
+  padding: 6px;
+ }
+ /* ----------------------- */
 .toolbar_hamburg span:nth-child(3){
  margin-bottom: 0 !important;
 }

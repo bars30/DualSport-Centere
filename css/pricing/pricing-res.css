@@ -1,0 +1,54 @@
+@media only screen and (max-width: 800px){
+ .pricing_video_cont {
+  display: block;
+ }
+ .pricing_video_cont video {
+  width: 100%;
+ }
+ .pricing_video_cont video:nth-child(1){
+  margin-bottom: 15px;
+ }
+ .lesson-grid, .rental-grid, .service-grid {
+  display: block;
+ }
+ .lesson-item, .rental-item, .service-item {
+  width: 100%;
+ }
+ .lesson-item:nth-child(2n-1),
+  .rental-item:nth-child(2n-1),
+   .service-item:nth-child(2n-1) {
+  margin-bottom: 15px;
+ }
+}
+@media only screen and (max-width: 600px){
+ .terms h3 {
+  padding: 22px 0 13px 0;
+  font-size: 23px;
+ }
+ .call-to-action h3 {
+  padding: 13px;
+ }
+ p {
+  font-size: 16px !important;
+ }
+ .full-name-cont, .email-phone-cont {
+  display: block;
+ }
+ form {
+  width: 100%;
+ }
+ input, textarea, select, option {
+  width: 96%;
+ }
+ .pricing-intro, .pricing-section {
+  overflow: scroll;
+ }
+}
+
+
+
+
+
+
+
+
