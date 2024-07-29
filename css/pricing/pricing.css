@@ -208,7 +208,9 @@ textarea {
 .pricing-form-section {
     padding-bottom: 35px;
 }
-
+select {
+    width: 46%;
+}
 
 
 

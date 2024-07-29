@@ -43,6 +43,13 @@
  .pricing-intro, .pricing-section {
   overflow: scroll;
  }
+ tr th:nth-child(3), tr td:nth-child(3),
+ tr th:nth-child(2), tr td:nth-child(2){
+  display: none;
+ }
+ tr span, th span  {
+  display: block;
+ }
 }
 
 
