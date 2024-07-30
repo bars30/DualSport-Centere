@@ -1,0 +1,98 @@
+.contact-web_cont {
+ color: white;
+}
+.header-title {
+ font-size: 35px;
+ font-family: 'Lora';
+ text-align: center;
+ padding: 25px 0;
+ color: #dbc97b;
+}
+.header-subtitle {
+ font-size: 25px;
+ text-align: center;
+ font-family: 'Lora';
+ margin: 25px 0 16px 0;
+}
+/* -------------------- */
+.pricing-form-section h2 {
+ font-size: 31px;
+ margin: 10px 0;
+}
+.pricing-form-section p {
+ color: white;
+ text-align: center;
+ padding-bottom: 5px;
+ font-size: 17px;
+}
+label {
+ color: white;
+}
+input, textarea, select, option {
+ padding: 10px 20px;
+ font-size: 18px;
+ border-radius: 12px;
+ margin-bottom: 10px;
+ outline: none;
+ border: 2px solid #6b8f43cf;
+ background: #a0a973;
+ width: 100%;
+}
+.full-name-cont {
+ display: flex;
+ justify-content: space-between;
+}
+.email-phone-cont {
+ display: flex;
+ justify-content: space-between;
+}
+form {
+ width: 85%;
+ margin: auto;
+ padding: 15px 0 37px;
+}
+.letter-purpose_membership-cont {
+ display: flex;
+ justify-content: space-between;
+}
+form button {
+ background: #a0a973;
+ border: navajowhite;
+ font-size: 22px;
+ padding: 8px 40px;
+ border-radius: 18px;
+ display: block;
+ margin: 20px auto;
+}
+textarea {
+ width: 100%;
+ resize: vertical;
+ margin: 0;
+}
+.pricing-form-section {
+ padding-bottom: 35px;
+}
+
+.full-name-cont div, .email-phone-cont div,
+.letter-purpose_membership-cont div {
+ width: 49%;
+}
+.contact-gallery-img-cont {
+ display: flex;
+ justify-content: space-between;
+}
+.contact-gallery-img-cont img {
+ display: block;
+ width: 32%;
+ border-radius: 15px;
+ transition: all 0.25s ease-in-out;
+ cursor: pointer;
+}
+.contact-gallery-img-cont img:hover {
+ transform: translateY(-8px);
+} 
+
+
+
+
+

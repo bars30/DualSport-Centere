@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>DualSport: Contact</title>
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="./css/about/hamburg.css">
+ <link rel="stylesheet" href="./css/about/footer.css">
+ <link rel="stylesheet" href="./css/home/footer.css">
+ <link rel="stylesheet" href="./fonts/abril_fatface/stylesheet.css">
+ <link rel="stylesheet" href="./fonts/lora/stylesheet.css">
+ <link rel="stylesheet" href="./fonts/roboto/stylesheet.css">
+ <link rel="stylesheet" href="./css/contact/contact.css">
+</head>
+<body>
+ <div class="web_cont contact-web_cont">
+  <section class="header about_header">
+   <div class="container">
+    <div class="general_toolbar">
+     <div class="logo">
+      <img src="../img/logo.png" alt="...">
+      <h1>Dual<span>Sport</span> <br> <span>Tennis &</span> <br> Golf Center</h1>
+     </div>
+     <div class="routing">
+      <a href="./index.html">Home</a>
+      <a href="./pages/about.html">About Us</a>
+      <a href="./contact.html" class="active">Contact</a>
+      <a href="./pricing.html">Pricing</a>
+     </div>
+     <button class="toolbar_hamburg">
+      <span class="sp1"></span>
+      <span class="sp2"></span>
+      <span class="sp3"></span>
+    </button>
+    </div>
+    <h2 class="header-title">Contact Us</h2>
+
+    <div class="contact-gallery-img-cont">
+     <img src="./img/contact/01.jpg" alt="..">
+     <img src="./img/contact/02.jpg" alt="..">
+     <img src="./img/contact/03.jpg" alt="..">
+    </div>
+    <h3 class="header-subtitle">To contact us, fill out the following form.</h3>
+
+    <div class="contact-form-section">
+     <form id="contactForm" action="/contact" method="post">
+         <div class="full-name-cont">
+             <div>
+                 <label for="fname" value="fname">First Name:</label><br>
+                 <input type="text" id="fname" name="name" required><br>
+             </div>
+             <div>
+                 <label for="lname" value="lname">Last Name:</label><br>
+                 <input type="text" id="lname" name="name" required><br>
+             </div>
+         </div>
+         <div class="email-phone-cont">
+             <div>
+                 <label for="email">Email:</label><br>
+                 <input type="email" id="email" name="email" required><br>
+             </div>
+             <div>
+                 <label for="phone">Phone:</label><br>
+                 <input type="tel" id="phone" name="phone" required><br>
+             </div>
+         </div>
+
+         <div class="letter-purpose_membership-cont">
+          <div>
+           <label for="letter-purpose">Purpose of the letter:</label><br>
+           <select id="letter-purpose" name="letter-purpose" required>
+            <option value="review">Review</option>
+            <option value="consultation">Consultation</option>
+            <option value="membership">Membership</option>
+           </select><br>
+          </div>
+          <div>
+           <label for="membership-type">Membership Type:</label><br>
+         <select id="membership-type" name="membership-type" required>
+             <option value="tennis-adult">Tennis Adult</option>
+             <option value="tennis-junior">Tennis Junior</option>
+             <option value="tennis-senior">Tennis Senior</option>
+             <option value="tennis-family">Tennis Family</option>
+             <option value="golf-adult">Golf Adult</option>
+             <option value="golf-junior">Golf Junior</option>
+             <option value="golf-senior">Golf Senior</option>
+             <option value="golf-family">Golf Family</option>
+             <option value="combined-adult">Combined Adult</option>
+             <option value="combined-junior">Combined Junior</option>
+             <option value="combined-senior">Combined Senior</option>
+             <option value="combined-family">Combined Family</option>
+             <option value="undecided">Undecided</option>
+         </select><br>
+          </div>
+         </div>
+
+         <label for="message">Message:</label><br>
+         <textarea rows="5" name="message" id="message"></textarea><br>
+         <button type="submit" id="submitBtn" disabled>Submit</button>
+     </form>
+     <p id="successMessage" style="display: none;">Thank you for signing up for membership! We will contact you soon.</p>
+    </div>
+   </section>
+   <footer>
+    <div class="footer_cont">
+      <div class="footer_about">
+      <div class="footer_logo_cont">
+        <img src="./img/logo.png" class="footer_logo" alt="." loading="lazy">
+        <h6>DualSport Tennis & Golf Center</h6>
+      </div>
+        <p>
+          At DualSport Tennis & Golf Center, we combine state-of-the-art 
+          facilities with expert instruction to provide you with the ultimate
+           environment for mastering both tennis and golf, ensuring an exceptional experience 
+           every time you play.
+        </p>
+      </div>
+      <div class="footer_cont3">
+        <div class="footer_info">
+          <div class="footer_info_contact">
+            <p>dualsport@gmail.com</p>
+            <p>(374) 156 454</p>
+            <p>Abovyan St., Yerevan, AM</p>
+          </div>
+          <div class="social_icons">
+            <img src="./img/socialicons/youtube.png" alt="." loading="lazy">
+            <img src="./img/socialicons/instagram.png" alt="." loading="lazy">
+            <img src="./img/socialicons/facebook.png" alt="." loading="lazy">
+            <img src="./img/socialicons/threads.png" alt="." loading="lazy">
+          </div>
+        </div>
+        <div class="footer_routing">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Pricing</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer_cont2">
+      <h4>DualSport Tennis & Golf Center 2024</h4>
+    </div>
+  </footer>
+ </div>
+ <script src="./js/header.js"></script>
+ <script src="./js/contact/contact.js"></script>
+</body>
+</html>

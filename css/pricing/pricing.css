@@ -214,7 +214,13 @@ select {
 .pricing-table th span, .pricing-table td span {
     display: none;
 }
-
+.header-title {
+    color: white;
+    font-size: 32px;
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Lora';
+}
 
 
 

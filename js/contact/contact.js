@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
- const form = document.getElementById('membershipForm');
+ const form = document.getElementById('contactForm');
  const submitBtn = document.getElementById('submitBtn');
  const inputs = form.querySelectorAll('input, select, textarea');
  const successMessage = document.getElementById('successMessage');
@@ -28,9 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
      // Clear the form fields
      form.reset();
 
-  setTimeout(() => {
-   successMessage.style.display = 'none';
-  }, 2000);
+     setTimeout(() => {
+         successMessage.style.display = 'none';
+     }, 2000);
+
      // Disable submit button after reset
      submitBtn.disabled = true;
  });
