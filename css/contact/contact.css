@@ -141,7 +141,7 @@ iframe {
  cursor: pointer;
 }
 section.map-media_cont {
- padding: 25px 0 ;
+ padding: 25px 0 55px;
 }
 .media-link-item a {
  color: white;
@@ -170,11 +170,72 @@ section.map-media_cont {
 .media-link-item a:hover {
  color: #d9ffe4;
 }
-
-
-
-
-
+/* --- faqs --------- */
+img.faqs-backimg01 {
+ width: 50px;
+ position: absolute;
+ right: 72px;
+ bottom: 15px;
+ transform: rotate(353deg);
+}
+img.faqs-backimg02 {
+ width: 50px;
+ position: absolute;
+ left: 39px;
+ transform: rotate(346deg);
+ top: 80px;
+}
+img.faqs-backimg03 {
+ width: 50px;
+ position: absolute;
+ right: 50px;
+ top: 17px;
+ transform: rotate(24deg);
+}
+.faqs h2 {
+ font-size: 32px;
+ font-family: 'Lora';
+ text-align: center;
+ color: #b74011;
+ margin: 0 0 15px 0;
+}
+.faqs {
+ position: relative;
+}
+.faqs-item h3 {
+ font-size: 21px;
+ font-family: 'Lora';
+ color: #cd6920;
+ margin-bottom: 5px;
+}
+.faqs-item h3::before {
+ content: "";
+ width: 21px;
+ height: 21px;
+ background-color: #cd6920;
+ display: inline-block;
+ border-radius: 21px;
+ margin: 0 7px 0;
+}
+.faqs-item p {
+ padding-left: 23px;
+ font-size: 18px;
+}
+.faqs-item {
+ margin-bottom: 15px;
+ transition: all 0.35s ease-in-out;
+ cursor: pointer;
+}
+.faqs-item:hover {
+ transform: translate(5px, -5px);
+}
+.faqs-item a {
+ color: #bbc58b;
+ transition: all 0.18s ease-in;
+}
+.faqs-item a:hover {
+ color: #ddea9d;
+}
 
 
 
