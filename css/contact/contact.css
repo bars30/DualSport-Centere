@@ -5,7 +5,7 @@
  font-size: 35px;
  font-family: 'Lora';
  text-align: center;
- padding: 25px 0;
+ padding: 25px 0 5px;
  color: #dbc97b;
 }
 .header-subtitle {
@@ -49,7 +49,7 @@ input, textarea, select, option {
 form {
  width: 85%;
  margin: auto;
- padding: 15px 0 37px;
+ padding: 15px 0;
 }
 .letter-purpose_membership-cont {
  display: flex;
@@ -80,6 +80,7 @@ textarea {
 .contact-gallery-img-cont {
  display: flex;
  justify-content: space-between;
+ margin-top: 20px;
 }
 .contact-gallery-img-cont img {
  display: block;
@@ -90,7 +91,89 @@ textarea {
 }
 .contact-gallery-img-cont img:hover {
  transform: translateY(-8px);
+ box-shadow: 2px 2px 12px 4px #97ad7d;
 } 
+/* -------------- */
+.operating_hours-cont h4 {
+ font-size: 23px;
+ color: #d19875;
+ text-align: center;
+ margin-bottom: 10px;
+}
+.time-cont {
+ width: fit-content;
+ padding: 12px 25px;
+ background-color: #5eb1bc;
+ border-radius: 20px;
+ font-size: 17px;
+ margin: auto;
+}
+#successMessage {
+ text-align: center;
+ width: 100%;
+}
+
+
+
+
+
+/* ------------- */
+iframe {
+ border-radius: 24px;
+ /* width: 55%; */
+ width: 100%;
+}
+.map-media_cont h2 {
+ text-align: center;
+ padding: 0 0 15px 0;
+ font-size: 30px;
+ font-family: 'Lora';
+}
+.media-link-item {
+ display: flex;
+ justify-content: start;
+ margin-bottom: 14px;
+ transition: all 0.25s ease-in;
+ padding-left: 20px;
+}
+.media-link-item img {
+ width: 50px;
+ cursor: pointer;
+}
+section.map-media_cont {
+ padding: 25px 0 ;
+}
+.media-link-item a {
+ color: white;
+ font-size: 18px;
+ text-decoration: none;
+ padding: 13.5px 0;
+ display: block;
+ margin-left: 13px;
+}
+.map-media_cont .container {
+ display: flex;
+ justify-content: space-between;
+}
+.media-links-cont h3 {
+ font-size: 20px;
+ font-family: 'Lora';
+ padding: 20px 0;
+}
+.media-link-item:hover {
+ transform: translate(10px, -5px);
+}
+.media-links-cont {
+ width: 42%;
+ display: none;
+}
+.media-link-item a:hover {
+ color: #d9ffe4;
+}
+
+
+
+
 
 
 
