@@ -211,7 +211,9 @@ textarea {
 select {
     width: 46%;
 }
-
+.pricing-table th span, .pricing-table td span {
+    display: none;
+}
 
 
 

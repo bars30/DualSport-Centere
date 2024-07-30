@@ -41,7 +41,7 @@
   width: 96%;
  }
  .pricing-intro, .pricing-section {
-  overflow: scroll;
+  /* overflow: scroll; */
  }
  tr th:nth-child(3), tr td:nth-child(3),
  tr th:nth-child(2), tr td:nth-child(2){
@@ -50,8 +50,16 @@
  tr span, th span  {
   display: block;
  }
+ .pricing-table th span, .pricing-table td span {
+  display: block;
 }
+.call-to-action h3 {
+ font-size: 23px;
+}
+}
+@media only screen and (max-width: 400px){
 
+}
 
 
 
