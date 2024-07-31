@@ -1,6 +1,9 @@
 .contact-web_cont {
  color: white;
 }
+.mobile-img {
+ display: none;
+}
 .header-title {
  font-size: 35px;
  font-family: 'Lora';

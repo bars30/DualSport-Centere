@@ -1,0 +1,49 @@
+.web_cont {
+ color: white;
+}
+h2 {
+ font-size: 35px;
+ font-family: 'Lora';
+ text-align: center;
+ padding: 27px 0 8px;
+ color: #b1bd8f;
+}
+.effective_date {
+ text-align: center;
+ font-size: 16px;
+ margin-bottom: 15px;
+}
+h3 {
+ font-size: 23px;
+ font-family: 'Lora';
+ color: #b7a75c;
+}
+::marker {
+ font-size: 18px;
+ color: #b7a75c;
+}
+li {
+ font-size: 17px;
+}
+ol li {
+ margin-bottom: 25px;
+}
+ul li {
+ margin-bottom: 7px;
+}
+ul {
+ padding-left: 41px;
+ padding-top: 12px;
+}
+ol {
+ padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+

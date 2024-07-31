@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1200px){
+ img.faqs-backimg03,img.faqs-backimg02,img.faqs-backimg01 {
+  width: 36px;
+ }
+}
+@media only screen and (max-width: 1000px){
+ form {
+  width: 100%;
+ }
+ img.faqs-backimg03, img.faqs-backimg02, img.faqs-backimg01 {
+  width: 30px;
+ }
+ img.faqs-backimg01 {
+  right: 29px;
+ }
+ img.faqs-backimg02 {
+  left: 27px;
+ }
+ .contact-gallery-img-cont img {
+  width: 49%;
+ }
+ .contact-gallery-img-cont img:nth-child(3){
+  display: none;
+ }
+}
+@media only screen and (max-width: 600px){
+ .contact-gallery-img-cont img{
+  display: none;
+ }
+ .mobile-img {
+  display: block;
+  border-radius: 15px;
+  width: 100%;
+  margin: 15px 0 0 ;
+ }
+ .header-subtitle {
+  font-size: 22px;
+  margin: 14px 0 12px 0;
+ }
+ 
+.full-name-cont, .email-phone-cont, .letter-purpose_membership-cont {
+ display: block;
+}
+.full-name-cont div, .email-phone-cont div, .letter-purpose_membership-cont div {
+ width: 100%;
+}
+.faqs-item h3 {
+ font-size: 20px;
+}
+.faqs-item h3::before {
+ width: 16px;
+ height: 16px;
+}
+.faqs-item p {
+ padding-left: 28px;
+ font-size: 16px;
+}
+img.faqs-backimg03, img.faqs-backimg02, img.faqs-backimg01 {
+ width: 23px;
+}
+img.faqs-backimg02 {
+ left: -3px;
+}
+img.faqs-backimg01 {
+ right: 0;
+}
+img.faqs-backimg03 {
+ right: 9px;
+}
+section.map-media_cont {
+ padding: 13px 0 55px;
+}
+.map-media_cont h2 {
+ font-size: 26px;
+}
+}
+
+
+
+
+
